@@ -4,13 +4,20 @@
 
 Timeline-WP is a WordPress plugin that enables users to create and display a responsive, horizontal timeline on their WordPress site. This plugin utilizes React to render timeline items, which can dynamically display detailed event descriptions in a modal upon clicking.
 
-## Features
+Current Plugin offers a modern way to display timelines on your website. With its current capabilities and planned future enhancements, it stands out for its flexibility and user-friendly interface. Here’s what it currently offers and what's on the roadmap for future updates:
 
-- Horizontal timeline layout
-- Dynamic data loading for event details
-- Customizable icons for each timeline event
+### Current Features
+
+- **Vertical Timeline Layout**: Presents timeline events in a Vertical line, offering a broad view of the timeline that's both intuitive and visually engaging.
+- **Hardcoded Data Loading**: The timeline to load event details with hardcoded values with minimal loading time.
 - Continuous, adjustable dotted line across the timeline
 - Responsive design that adapts to various screen sizes
+
+
+### Planned Features in Next Updates
+
+- **Horizontal Timeline Layout**: Presents timeline events in a horizontal line, offering a broad view of the timeline that's both intuitive and visually engaging.Enhancements to the layout for improved responsiveness and interactivity.
+- **Dynamic Data Loading for Event Details**: Enables the timeline to dynamically load event details, ensuring that the content is always up to date with minimal loading time.Upgrades to how data is fetched and displayed, aiming for even smoother user experiences and integration options.
 
 ## Installation
 
