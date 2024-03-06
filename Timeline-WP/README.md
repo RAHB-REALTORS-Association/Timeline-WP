@@ -21,9 +21,9 @@ Timeline-WP is a WordPress plugin that enables users to create and display a res
 
 ## Usage
 
-To add a timeline to your page or post, use the following shortcode, replacing the placeholder content with your actual timeline data:
+To add a timeline to your page or post, use the following tag to add content with your actual timeline data:
 
-[Timeline-WP]
+<div id="timeline-wp"></div>
 
 ## Contributing
 

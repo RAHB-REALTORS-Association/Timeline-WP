@@ -28,9 +28,9 @@ Current Plugin offers a modern way to display timelines on your website. With it
 
 ## Usage
 
-To add a timeline to your page or post, use the following shortcode, replacing the placeholder content with your actual timeline data:
+To add a timeline to your page or post, use the following tag to add content with your actual timeline data:
 
-[Timeline-WP]
+<div id="timeline-wp"></div>
 
 ## Contributing
 

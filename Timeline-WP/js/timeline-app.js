@@ -80,7 +80,7 @@
     ];
 // Render the timeline
     document.addEventListener('DOMContentLoaded', function() {
-        var container = document.getElementById('react-timeline');
+        var container = document.getElementById('timeline-wp');
         if (container) {
             ReactDOM.render(e(Timeline, {timelineData: timelineData}), container);
         }
