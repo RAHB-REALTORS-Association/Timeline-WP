@@ -21,3 +21,8 @@ function react_timeline_enqueue_scripts() {
     wp_enqueue_style('react-timeline-style', plugin_dir_url(__FILE__) . 'css/timeline-style.css', [], '1.0.0', 'all');
 }
 add_action('wp_enqueue_scripts', 'react_timeline_enqueue_scripts');
+
+function timeline_wp_shortcode() {
+    return '<div id="timeline-wp"></div>';
+}
+add_shortcode('timeline-wp', 'timeline-wp_shortcode');
