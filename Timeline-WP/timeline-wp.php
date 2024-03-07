@@ -3,7 +3,7 @@
  * Plugin Name: Timeline-WP
  * Plugin URI:
  * Description: A simple wordpress plugin to display vertical timeline using React with hardcoded data.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: RAHB
  * Author URI: https://lab.rahb.ca
  * License : GPL-2.0
