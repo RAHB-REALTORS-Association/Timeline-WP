@@ -9,7 +9,7 @@ jobs:
   prepare-release:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Zip WordPress Plugin Folder
       run: zip -r Timeline-WP-${{ github.ref_name }}.zip ./Timeline-WP/
@@ -24,7 +24,7 @@ jobs:
     needs: [prepare-release]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Download Plugin Zip artifact
         uses: actions/download-artifact@v2
